@@ -1,0 +1,42 @@
+@page
+@model RazorPagesTutorial.Pages.Person.EditModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<partial name="_Message" />
+
+<div>
+    <h3>Edit Person</h3>
+    <form asp-action="Edit" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Person.Id" class="form-control" />
+        <input type="hidden" asp-for="Person.ProfilePicture" class="form-control" />
+
+
+        <div class="form-group">
+            <label asp-for="Person.Name"></label>
+            <input asp-for="Person.Name" class="form-control" />
+            <span class="text-danger" asp-validation-for="Person.Name"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Person.Email"></label>
+            <input asp-for="Person.Email" class="form-control" />
+            <span class="text-danger" asp-validation-for="Person.Email"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Person.ImageFile"></label>
+            @if (!string.IsNullOrEmpty(Model.Person.ProfilePicture))
+            {
+                <img style="width:120px;height:100px" src="/Uploads/@Model.Person.ProfilePicture" alt="Profile picture" />
+            }
+            <input type="file" asp-for="Person.ImageFile" class="form-control" />
+            <span class="text-danger" asp-validation-for="Person.ImageFile"></span>
+        </div>
+        <div class="my-2">
+            <button class="btn btn-primary">Update</button>
+            <a asp-page="DisplayAll" class="btn btn-dark">All records</a>
+        </div>
+    </form>
+</div>

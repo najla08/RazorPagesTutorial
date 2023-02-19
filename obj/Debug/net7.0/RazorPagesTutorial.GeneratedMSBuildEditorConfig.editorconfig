@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RazorPagesTutorial
+build_property.RootNamespace = RazorPagesTutorial
+build_property.ProjectDir = /Users/najla/Desktop/Projects/RazorPagesTutorial/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/najla/Desktop/Projects/RazorPagesTutorial
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Migrations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TWlncmF0aW9ucy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Person/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0NhdGVnb3J5L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Person/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0NhdGVnb3J5L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Person/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0NhdGVnb3J5L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Person/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0NhdGVnb3J5L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Person/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0NhdGVnb3J5L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Person/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Person/DisplayAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0Rpc3BsYXlBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Person/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Shared/_Message.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19NZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/najla/Desktop/Projects/RazorPagesTutorial/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,34 @@
+@page
+@model RazorPagesTutorial.Pages.Person.CreateModel
+@{
+    ViewData["Title"] = "Create";
+
+}
+
+<h1>Create</h1>
+<partial name="_Message" />
+
+<div>
+    <h3>Add Person</h3>
+    <form asp-action="Create" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Person.Name"></label>
+            <input asp-for="Person.Name" class="form-control" />
+            <span class="text-danger" asp-validation-for="Person.Name"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Person.Email"></label>
+            <input asp-for="Person.Email" class="form-control" />
+            <span class="text-danger" asp-validation-for="Person.Email"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Person.ImageFile"></label>
+            <input type="file" asp-for="Person.ImageFile" class="form-control" />
+            <span class="text-danger" asp-validation-for="Person.ImageFile"></span>
+        </div>
+        <div class="my-2">
+            <button class="btn btn-primary">Save</button>
+            <a asp-page="DisplayAll" class="btn btn-dark">All records</a>
+        </div>
+    </form>
+</div>
